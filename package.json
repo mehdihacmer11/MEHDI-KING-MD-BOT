@@ -6,19 +6,20 @@
   "license": "MIT",
   "author": "MEHDI MD",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=8.0.0"
+    "node": "20.x",
+    "npm": ">=10.0.0"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.6.0",
+    "@whiskeysockets/baileys": "latest",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@dark-yasiya/yt-dl.js": "1.0.5",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@vitalets/google-translate-api": "^9.2.1",
-    "api-dylux": "^1.4.5",
+    "api-dylux": "^1.8.1",
     "api-qasim": "^3.2.10",
     "mumaker": "^2.0.0",
     "better-sqlite3": "npm:libsql@0.5.12",
@@ -39,7 +40,7 @@
     "megajs": "^1.3.7",
     "wa_set_pkg": "1.0.5",
     "wa-sticker-formatter": "^4.4.4",
-    "dotenv": "^16.0.0",
+    "dotenv": "^16.4.5",
     "jsdom": "^22.1.0",
     "adm-zip": "^0.5.16",
     "cheerio": "^1.0.0-rc.12",
